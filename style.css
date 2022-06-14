@@ -1,0 +1,96 @@
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: greenyellow;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: greenyellow;
+    color: white;
+  }
+  
+  .topnav-right {
+    float: right;
+  }  
+
+body{
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+
+nav{
+   background-color: black;
+    color: white;
+    padding: 20px 50px ;
+}
+
+.navTop{
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.searchInput{
+    border: none;
+    background-color: transparent;
+    margin-bottom: -5px;
+    margin-top: -5px;
+}
+.searchInput::placeholder{
+    color: lightgray;
+}
+.limitedOffer{
+    font-size: 20px;
+    border-bottom: 2px solid green;
+    cursor: pointer;
+}
+.navBottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menuItem{
+   margin-right: 55px; 
+   margin-top: 15px;
+   cursor: pointer;
+   color: lightgray;
+   font-weight: 400;
+}
+
+  #login_text{
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
